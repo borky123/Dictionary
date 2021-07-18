@@ -1,0 +1,64 @@
+body {
+  width: fit-content;
+  margin: 0 auto;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-color: rgb(172, 168, 168);
+}
+.resultContainer {
+  width: 500px;
+  height: auto;
+  margin-top: 10px;
+  border: solid black;
+  visibility: hidden;
+  padding: 10px;
+  text-align: center;
+  text-overflow: clip;
+  font-size: 20px;
+  background-color: rgb(169, 219, 150);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.inputFields {
+  width: 300px;
+  height: 45px;
+  border: solid rgb(58, 219, 37);
+  border-radius: 23px;
+  font-size: 25px;
+  vertical-align: middle;
+  text-align: center;
+  margin: 5px;
+}
+#wordsSearch {
+  width: 300px;
+  height: 45px;
+  border: solid rgb(58, 219, 37);
+  border-radius: 23px;
+  font-size: 25px;
+  vertical-align: middle;
+  text-align: center;
+}
+#addButton {
+  height: 55px;
+  width: 200px;
+  border: solid rgb(58, 219, 37);
+  vertical-align: middle;
+  font-size: 25px;
+  border-radius: 25px;
+  margin: 7px;
+}
+#searchButton {
+  height: 53px;
+  width: 100px;
+  border: solid rgb(58, 219, 37);
+  vertical-align: middle;
+  font-size: 25px;
+  border-radius: 25px;
+  margin: 7px;
+}
+
+.paragraph-styling {
+  margin: 0;
+  cursor: pointer;
+  font-size: 25px;
+}
